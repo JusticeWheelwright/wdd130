@@ -23,14 +23,42 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.skill_container {
+    position: relative;
+    width: 100%;
+    max-width: 74px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    border: #2B3D8C solid 5px;
+  }
+  
+  .skill_img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .skill_container:hover .skill_img {
+    opacity: 0.3;
+  }
+  
+  .skill_container:hover .middle {
+    opacity: 1;
+  }
+  
+  .skill-text {
+    background-color: #2B3D8C;
+    color: white;
+    font-size: 16px;
+    padding: 4px 4px;
+  }
+
 .rotation-title {
     grid-column: 1/5;
-}
-
-.skill_img {
-    margin: 25px;
-    height: 55%;
-    border: solid #2B3D8C 6px;
 }
 
 .skill_rotation {
@@ -73,6 +101,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    margin: auto;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
