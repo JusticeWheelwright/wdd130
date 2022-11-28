@@ -66,11 +66,16 @@ body {
     grid-column: 2/3;
     display: inline;
     vertical-align: bottom;
-    text-align: left;
+    text-align: center;
+}
+
+.card-title {
+    margin-top: 60px;
+    text-align: center;
 }
 
 .home-grid2 {
-    margin-top: 50px;
+    margin-top: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
