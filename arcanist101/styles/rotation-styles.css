@@ -23,6 +23,10 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.rotation-title {
+    grid-column: 1/5;
+}
+
 .skill_container {
     position: relative;
     width: 100%;
@@ -57,16 +61,13 @@ body {
     padding: 4px 4px;
   }
 
-.rotation-title {
-    grid-column: 1/5;
-}
-
 .skill_rotation {
+    max-width: 700px;
     padding: 25px;
     grid-column: 2/3;
     display: inline;
-    vertical-align: bottom;
     text-align: center;
+    margin: auto;
 }
 
 .card-title {
