@@ -9,6 +9,78 @@ body {
     padding: 0;
 }
 
+.hero {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.hero-img {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+.hero-msg {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.home-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.rotation_img {
+    grid-column: 1/3;
+    width: 100%;
+    grid-row: 1/2;
+}
+
+.rotation {
+    grid-column: 1/3;
+    grid-row: 2;
+    height: 40px;
+    background-color: white;
+    display: inline;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.home-grid p {
+    grid-column: 4/6;
+    margin: auto;
+}
+
+.home-grid2 {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.build_img {
+    grid-column: 4/6;
+    width: 100%;
+    grid-row: 1/2;
+}
+
+.build {
+    grid-column: 4/6;
+    grid-row: 2;
+    height: 40px;
+    background-color: white;
+    display: inline;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.home-grid2 p {
+    grid-column: 1/3;
+    margin: auto;
+}
+
 .title {
     text-align: center;
 }
@@ -128,7 +200,68 @@ body {
     padding: 16px 32px;
   }
 
-  header {
+.build-grid {
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 22px;
+}
+
+.set_img {
+    grid-row: 1/3;
+    width: 400px;
+    margin: auto;
+}
+
+.stats_img {
+    grid-column: 3/4;
+    margin: auto;
+    height: 75%;
+}
+
+.builds {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 85%;
+}
+
+.stats {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.build-grid2 {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills_img {
+    grid-column: 1/2;
+    width: 90%;
+}
+
+.build-grid3 {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.build-grid3 div{
+    margin: auto;
+}
+
+.engraving_img {
+    grid-column: 1/2;
+    width: 90%;
+}
+
+header {
     background-color: #49475B;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
